@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" lang="PT-BR"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <link rel='stylesheet' href='churras.css'/>
+        <title>churrascometro</title>
+    </head>
+    <body>
+        <section class='box'>
+            <h1>Calculadora Churrascometro</h1>
+        <div id='master'>
+            <div class='box'>
+                <label> Quantidade de adultos </label>
+                <input id='adulto' type="number" min="0" max="255"/><br/>
+            </div>
+            <div class='box'>
+                <label > Quantidade de crianças </label>
+                <input id='criança' type="number" min="0" max="255"/><br/>
+            </div>
+
+            <div class='box'>
+                <label> Duração do churras(h) </label>
+                <input id='tempoChurras' type="number" min="0" max="24"/><br/>
+            </div>
+        </div>
+            <button id="send">Calcular</button>
+        <div id='result'></div>
+        </section>
+    </body>
+    <script src='churras.js'></script>
+    
+</html>
